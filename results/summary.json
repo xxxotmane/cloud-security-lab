@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-12",
+  "nmap": {
+    "initial_ipv4": "50.116.1.184",
+    "initial_open_tcp": [
+      22,
+      25,
+      80,
+      443
+    ],
+    "full_scan_ipv4": "45.33.32.156",
+    "full_scan_open_tcp": [
+      22,
+      80,
+      9929
+    ],
+    "closed_tcp": 65513,
+    "filtered_tcp": 19,
+    "duration_seconds": 788.29,
+    "localstack_tcp": 4566
+  },
+  "zap": {
+    "urls_discovered": 116,
+    "alert_types": 10,
+    "high": 0,
+    "medium": 2,
+    "low": 4,
+    "informational": 4,
+    "active_scan_performed": false
+  },
+  "prowler": {
+    "version": "5.44.0",
+    "checks_executed": 73,
+    "findings": 33,
+    "statuses": {
+      "PASS": 14,
+      "FAIL": 19
+    },
+    "failed_by_service": {
+      "iam": 10,
+      "s3": 9
+    }
+  },
+  "remediation_applied": false,
+  "manual_validation_bucket_recreated": true
+}
